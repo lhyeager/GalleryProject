@@ -1,0 +1,54 @@
+.ui.inverted.header {
+    margin-top: 50px;
+}
+.uiCard {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 1);
+}
+.ui.card,
+.ui.cards>.card {
+  /* background-color: rgb(51, 51, 51); */
+  margin: 0px 0px;
+  background-color: black;
+ 
+}
+
+.image {
+    width:100%;
+    height:75%;
+}
+
+.gallery {
+    /* background-color: rgb(51, 51, 51); */
+    min-height: 25vh;
+    padding: 25px;
+    background-color: black;
+}
+
+.left.floated.star {
+    color: white;
+}
+
+.extra.content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bottom {
+    margin: 40px;
+}
+
+#photoList {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap:20px;
+}
+
+/* .ui.three.column.grid {
+   grid-gap: 25px;
+   margin: 10px 10px;
+   border: 0px 0px;
+} */
